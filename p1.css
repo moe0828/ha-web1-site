@@ -1,0 +1,56 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+.box1{
+    background-color: aqua;
+    height: 100vh;
+    background-image: url('back.jpg');
+    color: rgb(255, 255, 255);
+    font-size: 30px;}
+.gray{
+    background-color: rgba(0,0,0,0.5);
+    height: 100vh;
+    position: absolute;
+    z-index: 1;
+    width: 100vw;
+    font-family: 'Abril Fatface', cursive;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box2{
+    background-color: rgb(253, 174, 233);
+    height: 100vh;
+
+}
+.box2 img{
+    width: 300px;
+    height: 300px;
+    border-radius: 300px;
+}
+.access{
+    background-color: rgb(253, 158, 253);
+    height: 100vh;
+}
+.sns{
+    background-color: rgb(255, 138, 235);
+    height: 100vh; 
+    font-size:50px ;   
+    color:#fff;  
+
+    }
+.map{
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+}
+.sns i{
+    margin:10px;
+}
+.map{
+   width: 100vw;
+   font-family: 'Abril Fatface', cursive;
+}
