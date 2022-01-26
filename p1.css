@@ -5,15 +5,17 @@
 ul,li{
     list-style: none;
 }
-
+h1{
+    text-shadow:1px 0 5px black;}
 .box1{
     background-color: aqua;
     height: 100vh;
     background-image: url('back.jpg');
     color: rgb(255, 255, 255);
     font-size: 30px;}
+
 .gray{
-    background-color: rgba(0,0,0,0.5);
+    background-color: rgba(253, 174, 233, 0.2);
     height: 100vh;
     position: absolute;
     z-index: 1;
@@ -25,13 +27,14 @@ ul,li{
 }
 
 .box2{
-    background-color: rgb(253, 174, 233);
+    background-color: rgb(255, 223, 247);
     height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
 
 }
+
 .box2 img{
     width: 300px;
     height: 300px;
@@ -42,28 +45,32 @@ ul,li{
     text-align: center;
 }
 .access{
-    background-color: rgb(253, 158, 253);
+    background-color: rgb(255, 198, 255);
     height: 100vh;
 }
 .sns{
-    background-color: rgb(255, 138, 235);
-    height: 100vh; 
+    background-color: rgb(253, 161, 238);
+    height: 13vh; 
     font-size:50px ;   
     color:#fff;  
     text-align: center;
     }
+
 .map{
     display: flex;
     justify-content: center;
-    align-items: center;   
+    align-items: center;
 }
+
 .sns i{
     margin:10px;
 }
+
 .map{
    width: 100vw;
    font-family: 'Abril Fatface', cursive;
 }
+
 .access h2{
     padding: 30px;
 }

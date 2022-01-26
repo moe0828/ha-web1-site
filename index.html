@@ -10,6 +10,10 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet">
 <script src="https://kit.fontawesome.com/525291333a.js" crossorigin="anonymous"></script>
+<link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css"
+/>
 </head>
 <body>
     <div class="box1">
@@ -18,12 +22,36 @@
     </div>
     </div>
     <div class="box2">
-       <div> <img src="latte-g.jpg" alt="">
+       <div> 
+        <a
+  href="latte-g.jpg"
+  data-fancybox="gallery"
+  data-caption="カフェラテ"
+>
+<img src="latte-g.jpg" alt="">
+</a>   
+
+
+
     <p>カフェラテ - ￥500</p></div>
-        <div><img src="latte2.jpg" alt="">
+        <div>        <a
+            href="latte2.jpg"
+            data-fancybox="gallery"
+            data-caption="カフェラテ"
+          >
+            <img src="latte2.jpg" alt="">
+        </a> 
+
     <p>カフェモカ - ￥500</p>
         </div>
-        <div><img src="coffee.jpg" alt="">
+        <div>
+            <a
+            href="coffee.jpg"
+            data-fancybox="gallery"
+            data-caption="コーヒー"
+          >
+            <img src="coffee.jpg" alt="">
+        </a> 
     <p>コーヒー - ￥450</p>
     </div>
     </div>
@@ -38,6 +66,6 @@
         <i class="fab fa-youtube"></i>
         <i class="fab fa-twitter"></i>
     </div>
-
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js"></script>
 </body>
 </html>
